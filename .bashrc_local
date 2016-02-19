@@ -1,0 +1,7 @@
+#vi mode
+set -o vi
+bind '"\e[1;5D": backward-word'
+bind '"\e[1;5C": forward-word'
+
+bind -r "\e[2~"
+bind -m vi-command '"\e[2~": vi-insertion-mode'
