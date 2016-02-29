@@ -6,3 +6,6 @@ bind '"\e[1;5C": forward-word'
 bind -r "\e[2~"
 bind -m vi-command '"\e[2~": vi-insertion-mode'
 bind -m vi-insert '"\e[2~": redraw-current-line'
+
+alias open="gnome-open"
+alias python="ptpython"
